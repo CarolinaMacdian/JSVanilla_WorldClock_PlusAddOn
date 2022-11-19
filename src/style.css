@@ -65,6 +65,10 @@ h2 {
   vertical-align: middle;
   line-height: 28px;
 }
+.back {
+  text-decoration: none;
+  color: #1f6f78;
+}
 
 .source {
   text-align: center;
