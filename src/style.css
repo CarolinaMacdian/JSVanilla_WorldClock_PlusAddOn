@@ -1,20 +1,80 @@
 /** @format */
 body {
   font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
-.app {
-  margin: 20px auto;
-  border-radius: 5px;
-  padding: 20px;
+.container {
+  margin: 40px auto;
+  padding: 40px 40px 10px 40px;
+  border-radius: 15px;
   max-width: 600px;
+  background: #06bba9;
+  box-shadow: -5px 10px 20px #1f6f78;
 }
+
+h1 {
+  font-family: "Bungee Shade", cursive;
+  color: #93e4c1;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: transparent;
+  color: #93e4c1;
+  border: none;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.city {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  color: #1f6f78;
+  border-bottom: 1px dashed #93e4c1;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.time {
+  font-size: 25px;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 28px;
+}
+
+.date {
+  opacity: 0.7;
+  vertical-align: middle;
+  line-height: 28px;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 28px;
+}
+
 .source {
   text-align: center;
   width: fit-content;
   font-size: 10px;
   font-weight: 500;
+  padding: 40px 0px 0px 0px;
+  margin: 0 auto;
+  color: #1f6f78;
 }
 .link {
-  color: #ff0000;
+  color: #93e4c1;
   text-decoration: none;
 }
