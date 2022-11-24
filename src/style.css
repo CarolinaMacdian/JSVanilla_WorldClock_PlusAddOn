@@ -39,7 +39,7 @@ h2 {
 .city {
   display: flex;
   vertical-align: middle;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: #1f6f78;
   border-bottom: 1px dashed #93e4c1;
   margin: 20px auto;
